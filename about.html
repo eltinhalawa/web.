@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Saya</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #FFF0F5 0%, #FFFFFF 50%, #FFF0F5 100%);
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header */
+        header {
+            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            backdrop-filter: blur(5px);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: #FF69B4;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+
+        .nav-links a {
+            margin-left: 30px;
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #FF69B4;
+        }
+
+        /* Main Content */
+        .about {
+            margin-top: 80px; /* To avoid overlap with fixed header */
+            text-align: center;
+        }
+
+        .about h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #FF69B4;
+        }
+
+        .about p {
+            font-size: 20px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #FF69B4;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 50px;
+        }
+
+        .social-icons {
+            margin: 20px 0;
+        }
+
+        .social-icons a {
+            color: white;
+            margin: 0 10px;
+            font-size: 24px;
+            transition: transform 0.3s;
+            display: inline-block;
+        }
+
+        .social-icons a:hover {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Ten<span style="color: #FF1493;">tang</span></div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Profil</a></li>
+                    <li><a href="about.html">Tentang</a></li>
+                    <li><a href="blog.html">Blogger</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="foto.html">Foto</a></li>
+                    <li><a href="toko.html">Toko</a></li>
+                    <li><a href="contact.html">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="container">
+            <h1>Tentang Saya</h1>
+            <p>Halo! Nama saya Eltyn Halawa. Saya seorang profesional di bidang teknologi informasi dengan pengalaman dalam pengembangan web dan desain.</p>
+            <p>Saya sangat menyukai belajar hal-hal baru dan berbagi pengetahuan dengan orang lain. Di website ini, saya ingin memperkenalkan diri dan karya-karya saya.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p>© 2025 Nias, Indonesia.</p>
+        </div>
+    </footer>
+
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
